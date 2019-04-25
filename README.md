@@ -36,9 +36,9 @@ use cinghie\satispay\components\Satispay as SatispayComponent;
 
 'satispay' => [
 	'class' => SatispayComponent::class,
-	'authenticationPath' => '@backend/web/',
-	'endPoint' => 'sandbox',
-	'token' => 'WG5MUC'
+	'authenticationPath' => '@webroot', // path for authentication.json
+	'endPoint' => 'sandbox', // sandbox | production
+	'token' => 'WG5MUC' // Your Satispay TOKEN
 ],
 ```
 
