@@ -3,10 +3,13 @@
     "description": "Yii2 Satispay to manage Satispay Payments on your Yii 2 project",
     "keywords": [
 	    "yii2 satispay", 
-	    "satispay payments", 
-	    "yii2 payments", 
-	    "satispay", 
-	    "payments"
+	    "satispay payments",
+	    "satispay payment",
+	    "yii2 payments",
+	    "yii2 payment",
+	    "satispay",
+	    "payments",
+	    "payment"
     ],
     "homepage": "https://github.com/cinghie/yii2-satispay",
     "type": "yii2-extension",
@@ -19,7 +22,11 @@
         }
     ],
     "require": {
-	      "yiisoft/yii2": "~2.0.14",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "yiisoft/yii2": "~2.0.14",
         "satispay/gbusiness-api-php-sdk": "@dev"
     },
     "autoload": {

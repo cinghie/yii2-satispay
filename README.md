@@ -26,3 +26,24 @@ or add this line to the require section of your `composer.json` file.
 ```
 "cinghie/yii2-satispay": "@dev"
 ```
+
+## Configuration
+
+Add in your common configuration file:
+
+```
+use cinghie\satispay\components\Satispay as SatispayComponent;
+
+'satispay' => [
+	'class' => SatispayComponent::class,
+	'authenticationPath' => '@backend/web/',
+	'endPoint' => 'sandbox',
+	'token' => 'WG5MUC'
+],
+```
+
+## Use Component
+
+```
+\Yii::$app->satispay;
+```
