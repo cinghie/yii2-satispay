@@ -27,7 +27,7 @@
         "ext-mbstring": "*",
         "ext-openssl": "*",
         "yiisoft/yii2": "~2.0.14",
-        "satispay/gbusiness-api-php-sdk": "@dev"
+        "satispay/gbusiness-api-php-sdk": "^1.3.0"
     },
     "autoload": {
         "psr-4": {
